@@ -1,0 +1,8 @@
+Home Page
+<%= bootstrap_form_for @address do |f| %>
+  <%= f.text_field :street %>
+  <%= f.text_field :city %>
+  <%= f.text_field :state %>
+  <%= f.text_field :zipcode %>
+  <%= f.submit %>
+<% end %>
